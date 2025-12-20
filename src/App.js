@@ -114,7 +114,7 @@ export default function Portfolio() {
 
                 {/* Scroll indicator */}
                 <div className="flex justify-center mt-16 animate-bounce">
-                    <ChevronDown className="text-pink-400" size={32} />
+                    <ChevronDown className="text-pink-400" size={32} style={{ transform: 'translateY(50px)' }} />
                 </div>
             </section>
 
@@ -249,14 +249,14 @@ export default function Portfolio() {
 
                     <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12">
                         <a
-                            href="mailto:emma.nuzillat@example.com"
+                            href="mailto:kamonman.nuzillat@lamache.org"
                             className="flex items-center justify-center gap-3 bg-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow"
                         >
                             <Mail className="text-pink-500" />
                             <span className="text-gray-700">Email</span>
                         </a>
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/kamonman-nuzillat-54b04630a/"
                             className="flex items-center justify-center gap-3 bg-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow"
                         >
                             <Linkedin className="text-pink-500" />
