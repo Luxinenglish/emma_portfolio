@@ -118,6 +118,7 @@ export default function Portfolio() {
                 </div>
             </section>
 
+
             {/* À propos */}
             <section id="apropos" className="py-20 px-4 bg-white">
                 <div className="max-w-4xl mx-auto">
