@@ -101,7 +101,7 @@ export default function Portfolio() {
                             <div className="w-64 h-64 rounded-full  flex items-center justify-center ">
                 <span className="text-white text-lg text-center px-4">
                                                             <img
-                                                                src="/src/img/me.jpg"
+                                                                src="/img/me.jpg"
                                                                 alt="Emma Nuzillat"
                                                                 className="w-full h-full object-cover rounded-full"
                                                                 style={{ transform: 'translateY(30px)' }}
